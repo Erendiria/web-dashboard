@@ -6,5 +6,6 @@ def main():
     # st는 웹 화면에 표시하는 역할을 한다.
     st.title("헬로우")
 
-    if__name__=="__main__" 
-main()
+if __name__=="__main__": 
+    print(__name__)
+    main()
