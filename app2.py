@@ -13,6 +13,7 @@ def main() :
 
     st.write('안녕하세요')
 
+
     st.success('성공했을때의 메세지를 보여줄때')
 
     st.warning('경고 메세지를 보여줄때')
@@ -22,9 +23,7 @@ def main() :
     st.error('문제가 발생했음을 보여주고 싶을때')
 
 
-
-    if __name__=='__main__' :
-        main()
-
+if __name__ == '__main__' :
+    main()
 
 
